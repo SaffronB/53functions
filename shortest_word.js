@@ -2,7 +2,7 @@
 
 module.exports = function(sentence) {
   var sentenceArray = sentence.replace(/[^a-zA-Z\s]+/g, '').split(' ');
-  console.log(sentenceArray);
+
 
   var shortestWord = sentenceArray[0];
 
